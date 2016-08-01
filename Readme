@@ -1,0 +1,22 @@
+
+================================================================================
+
+The "generic" notes for putting this thing together are below.  Here's the 
+short version.
+
+1.) ./configure
+2.) make
+3.) cp ./socks5-1.0/etc/* /etc/socks5/
+4.) Edit the socks5.conf with specific details for your system
+5.) ./socks5-1.0/src/socks5
+7.) Have fun!
+
+Any questions? Please send takesi.itsec@gmail.com it.
+
+================================================================================
+
+note: You must create the ca certificate, ca key, leaf key and content log directory before run.
+The path of content log directory is stored in the configuration file(/etc/socsk/socks5.conf).
+If this don't run, please set the log level as 0 and show the log file.
+
+Thanks.
